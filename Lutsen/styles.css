@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100%;
+}
+
+.nav_bar {
+    height: 80px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    background-color: #1663b5;
+    display: grid;
+    grid-template-columns: 20% 20% 40% 2% 18% ;
+}
+
+.mountain-logo {
+    height: 80px;
+    width: auto;
+    margin-right: 15px;
+    color: white;
+    
+}
+
+.white-link{
+    color: white;
+    text-decoration: none;
+}
+
+.white-link:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    background: grey;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 80px
+}
+
+.hidden-space {
+    height: 30px;
+}
+
+.setlogo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.link-container {
+    width: 450px;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.bi-cloud-sleet{
+    width: 40px;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.stack {
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* background images in divs */
+.image1 {
+    background-image: url("images/scenary.jpg");
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+}
+
+.ski {
+    background-image: url("images/fam_photo.jpeg");
+    height: 800px;
+    width: 100%;
+}
+
+.lodge {
+    background-image: url("images/lutsen_resort.jpg");
+    background-size: 100% 100%;
+    height: auto;
+    width: 70%;
+}
+
+.lodge-mountain {
+    background-image: url("images/lutsen_lodges.jpg");
+    background-size: 100% 100%;
+    height: auto;
+    width: 70%;
+}
+
+.ski-gap{
+    height: 300px;
+    width: 100%;
+}
+.skiis {
+    background-image: url("images/skiis.jpg");
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0;
+}
+.powder {
+    background-image: url("images/hillside_powder.jpg");
+    height: 740px;
+    width: 100%;
+}
+
+.hike{
+    background-image: url("images/hike.jpg");
+    height: 740px;
+    width: 100%;
+}
+
+.snowboard {
+    background-image: url("images/snowboard_overlook.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.snowboard-white {
+    background-image: url("images/snowboard_white.jpg");
+    height: 740px;
+    width: 100%;
+}
+
+.snowshoe {
+    background-image: url("images/snowshoe_white.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.cool-shoe {
+    background-image: url("images/cool_shoe.jpg");
+    background-size: 100% 100%;
+    height: 575px;
+    width: 70%;
+}
+
+.snowmobile  {
+    background-image: url("images/snowmobile_background.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.ski-flex {
+    display: flex;
+    margin-right: 100px;
+}
+.vertical-box {
+    height: 28vw;
+    width: 40vw;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.overlap-top {
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    opacity: 50%;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.overlap-bottom {
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    opacity: 50%;
+    margin-bottom:0;
+}
+
+.side-flex {
+    display: flex;
+    flex-direction: row;
+}
+.side-container {
+    background-color: white;
+    height: 500px;
+    width: 30%;
+    color:grey;
+    align-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+
+}
+
+.title-container-right {
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    height: 500px;
+    width: 500px;
+    padding-left: 50%;
+    padding-top: 100px;
+}
+.title-container-left {
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    height: 500px;
+    width: 1000px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.title-font-o {
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: #ff6600;
+}
+
+.title-font-w {
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: white;
+}
+
+.title-font-g {
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    color: grey;
+}
+
+.blue {
+    color: #1663b5;
+}
+
+.center {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.header-font {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+/* not in use */
+.header-font-b {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    color: #1663b5;
+}
+
+.r-align {
+    text-align: right;
+    padding-left: 55%;
+}
+
+.overlook {
+    height: 250px;
+    width: 100%;
+    background-color: grey;
+}
+
+.overlook-container {
+    display: block;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80px;
+    width: 950px;
+    padding-top: 60px;
+    padding-left: 18%;
+}
+
+.options {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("images/winter.jpg");
+    background-size: 100% 100%;
+    height: 570px;
+    width: 100%;
+    gap: 50px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.hike-options {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("images/winter.jpg");
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+    gap: 50px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: 21% 21% 21%;
+}
+
+.option-a {
+    background-image: url("images/skier_x.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border-color: none;
+    transition: transform .2s; 
+    text-align: center;
+}
+
+.option-a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    outline: none;
+
+}
+
+.option-b {
+    background-image: url("images/snowboard.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s;
+    text-align: center;
+}
+
+.option-b:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.option-c {
+    background-image: url("images/hiking_ss.png");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+}
+
+.option-c:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.option-d {
+    background-image: url("images/snowm.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+}
+
+.option-d:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hike-option-a {
+    background-image: url("images/hiking_location.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hike-option-a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hike-option-b {
+    background-image: url("images/hiking_ss.png");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hike-option-b:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hike-option-c {
+    background-image: url("images/snowshoe_w.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hike-option-c:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.snowmobile-option-a {
+    background-image: url("images/snowm.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.snowmobile-option-a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.snowmobile-option-b {
+    background-image: url("images/map.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.snowmobile-option-b:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.snowmobile-option-c {
+    background-image: url("images/snowm_rent.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.snowmobile-option-c:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.button-container {
+    display: block;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.orange-button {
+    transition: all .6s ease;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 4px;
+    border-color: #ff6600;
+    color: #ff6600;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.orange-button:hover {
+    color: white;
+    background-color: #ff6600;
+    cursor: pointer;
+}
+
+.orange-button-t {
+    transition: all .6s ease;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 4px;
+    border-color: #ff6600;
+    color: #ff6600;
+    background-color: transparent;
+}
+
+.orange-button-t:hover {
+    color: white;
+    background-color: #ff6600;
+    cursor: pointer;
+}
+
+/* styleguide, visual research, wireframe specific (do include many css elements above as well) */
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+}
+
+.color-orange {
+    height: 50px;
+    width: 50px;
+    background-color: #ff6600;
+}
+
+.color-blue {
+    height: 50px;
+    width: 50px;
+    background-color: #1663b5;
+}
+
+.color-white {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.color-grey {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    outline-style: dashed;
+    outline-color: black;
+}
+
+.research-container {
+    display: block;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 1100px;
+    width: 100%;
+    background-color: grey;
+    padding-top: 60px;
+}
+
+div.gallery img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+
+.wireframe-img {
+    height: 700px;
+    width: auto;
+}
+
+/* footer styling */
+
+.footer {
+    background-color: #1663b5;
+    height: 125px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    height: auto;
+    width: 500px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 60px;
+}
+
+.bi-instagram{
+    height: 30px;
+    width: auto;
+    color: white;
+}
+
+.bi-facebook {
+    height: 30px;
+    width: auto;
+    color: white;
+}
+
+.bi-twitter {
+    height: 30px;
+    width: auto;
+    color: white;
+}
+
+.bi-youtube {
+    height: 35px;
+    width: auto;
+    color: white;
+}
+
+.mn{
+    display: flex;
+    height: 30px;
+    width: auto;
+}
+
