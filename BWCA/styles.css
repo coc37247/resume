@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Righteous&family=Rubik+Dirt&family=Russo+One&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5d8;
+    width: 100%;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #f3e5d8;
+    opacity: 90%;
+    margin-bottom: 0;
+    margin-top: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100px;
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    padding-left: 29vw;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 150px;
+    transition: all .6s ease;
+    background-color: #f3e5d8;
+}
+
+.nav-button:hover {
+    background-color: #001a00;
+    color: #f3e5d8;
+}
+
+
+.bwca {
+    display: block;
+    height: 625px;
+    width: 100%;
+    background-image: url("images/view.jpeg");
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.food {
+    background-image: url("images/meal.jpeg");
+    background-size: 100% 100%;
+    height: auto;
+    width: 60%;
+}
+
+.collage {
+    background-image: url("images/collage.png");
+    background-size: 100% 100%;
+    height: 600px;
+    width: 50%;
+}
+
+.title-font-light {
+    font-family: 'Righteous', cursive;
+    color: #f3e5d8;
+    font-size: 10em;
+    padding-top: 0px;
+}
+
+.title-font-dark {
+    font-family: 'Righteous', cursive;
+    /* color: #353f34; */
+    color: #001a00;
+    font-size: 10em;
+}
+
+.header-font-light {
+    font-family: 'Righteous', cursive;
+    color: #f3e5d8;
+    font-size: 5em;
+    padding-bottom: 30px;
+}
+.header-font-dark {
+    font-family: 'Righteous', cursive;
+    /* color: #353f34; */
+    color: #001a00;
+    font-size: 5em;
+    padding-bottom: 30px;
+}
+
+.body-copy-light {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.body-copy-dark {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #001a00;
+    padding-bottom: 20px;
+}
+
+.bold-bodycopy-dark {
+    font-family: 'Nunito', sans-serif;
+    /* color: #353f34; */
+    text-decoration: double;
+    color: #001a00;
+    font-size: 23px;
+}
+
+.border-box-light {
+    height: 200px;
+    width: fit-content;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #f3e5d8;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-box-dark {
+    height: fit-content;
+    width: fit-content;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #001a00;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.event-container {
+    height: 750px;
+    width: 90vw;
+    background-color: #f3e5d8;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.event-header {
+    color: #353f34;
+}
+
+.event-image {
+    height: 550px;
+    width: 350px;
+}
+.event-image-repeat {
+    height: 650px;
+    width: 450px;
+    background-image: url("images/portage.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden-box {
+    height: 600px;
+    width: 400px;
+    background-color: #f3e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container-ca {
+    height: 500px;
+    width: 450px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.event-container-ca {
+    height: 600px;
+    width: 90vw;
+    background-color: #f3e5d8;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.gear-repeat {
+    height: 650px;
+    width: 450px;
+    background-image: url("images/gear.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canoe-access {
+    height: 350px;
+    width: 550px;
+}
+
+.exit {
+    height: 350px;
+    width: 550px;
+}
+
+.canoe-access-hbox {
+    height: 400px;
+    width: 600px;
+    background-color: #f3e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canoe-access-repeat {
+    height: 450px;
+    width: 650px;
+    background-image: url("images/canoe_access.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.falls-repeat {
+    height: 650px;
+    width: 450px;
+    background-image: url("images/falls.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canoeing-repeat {
+    height: 450px;
+    width: 650px;
+    background-image: url("images/canoeing.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.exit-repeat {
+    height: 450px;
+    width: 650px;
+    background-image: url("images/exit.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.fishing-repeat {
+    height: 650px;
+    width: 450px;
+    background-image: url("images/fishing.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fishing2 {
+    height: 350px;
+    width: 550px;
+}
+
+.fishing2-repeat {
+    height: 450px;
+    width: 650px;
+    background-image: url("images/fishing2.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.dark-line {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #001a00;
+    height: inherit;
+    width: 40px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.dark-line-redrock {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #001a00;
+    height: inherit;
+    width: 40px;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 50px;
+}
+
+.dark-line-horizontal {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #001a00;
+    height: 10px;
+    width: inherit;
+    border-left: none;
+    border-bottom: none;
+    margin-right: 50px;
+}
+
+
+.light-line {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #f3e5d8;
+    height: inherit;
+    width: 40px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.light-line-left {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #f3e5d8;
+    height: inherit;
+    width: 60px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.text-container {
+    height: 500px;
+    width: 650px;
+    padding-top: 100px;
+    margin-left: 40px;
+}
+
+.portage-text-container {
+    height: 500px;
+    width: 650px;
+    padding-top: 25vh;
+    margin-left: 40px;
+}
+
+.falls-text-container {
+    height: 500px;
+    width: 650px;
+    padding-left: 50px;
+    padding-top: 18vh;
+    margin-left: 40px;
+}
+
+.side-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-container-light {
+    background-color: #f3e5d8;
+    height: 500px;
+    width: 30%;
+    color: #001a00;
+    align-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.side-container-dark {
+    display: flex;
+    background-color: #001a00;
+    height: 500px;
+    width: 100%;
+    color: #f3e5d8;
+    align-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+
+}
+
+.purchase-container {
+    height: 500px;
+    /* width: 93%; */
+    width: 100%;
+    /* background-color: #001a00; */
+    background-image: url("images/lakeside.jpg");
+    background-size: 100% 100%;
+    padding-top: 50px;
+    /* margin-left: 100px; */
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding-top: 70px;
+    /* padding-top: 20px; */
+}
+
+.purchase-button-border {
+    height: 120px;
+    width: 240px;
+    background-color: transparent;
+    transition: all .3s ease;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: #f3e5d8;
+    border-width: 10px;
+    border-spacing: 10px;
+}
+
+.purchase-button {
+    height: 80px;
+    width: 200px;
+    background-color: #f3e5d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.purchase-button-border:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.space {
+    height: 80px;
+    width: 100%;
+    background-color: #f3e5d8;
+}
+
+.light-link{
+    color: #f3e5d8;
+    text-decoration: none;
+}
+
+.dark-link{
+    color: #001a00;
+    text-decoration: none;
+}
+
+.side-image {
+    height: auto;
+    width: 50vw;
+}
+
+.stack-vertical {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+/* Day1 added css */
+
+
+
+/* footer info */
+.footer {
+    height: 100px;
+    width: 80%;
+    background-color: #001a00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    height: auto;
+    width: 500px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 60px;
+}
+
+.bi-instagram{
+    height: 30px;
+    width: auto;
+    color: #f3e5d8;
+}
+
+.bi-facebook {
+    height: 30px;
+    width: auto;
+    color: #f3e5d8;
+}
+
+.bi-twitter {
+    height: 30px;
+    width: auto;
+    color: #f3e5d8;
+}
+
+.bi-youtube {
+    height: 35px;
+    width: auto;
+    color: #f3e5d8;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 200px;
+}
+
+.color-darkgreen {
+    height: 50px;
+    width: 50px;
+    background-color: #001a00;
+}
+
+.color-tan {
+    height: 50px;
+    width: 50px;
+    background-color: #f3e5d8;
+    outline-style: dashed;
+    outline-color: black;
+}
+
+.research-container {
+    display: block;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 85vw;
+    background-color: #f3e5d8;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+div.gallery img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+
+.wireframe {
+    height: 900px;
+    width: 700px;
+    border-radius: 5px;
+}
